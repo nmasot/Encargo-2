@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    flex-direction: column;
+    /* Alinea los párrafos en una columna */
+    justify-content: center;
+    /* Centra los párrafos verticalmente */
+    height: 200px;
+    text-align: left;
+    margin: 5% 5% 5%;
+    background-color: rgb(233, 230, 230);
+    background-image: url("../imgs/cactus.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.parrafo_titulo {
+    margin: 0;
+    margin-left: 60px;
+    font-family: 'Segoe UI', 'sans-serif';
+    font-size: 28px;
+}
+
+.parrafo_sub_titulo {
+    margin: 0;
+    margin-left: 60px;
+    font-family: 'Segoe UI', 'sans-serif';
+    font-size: 16px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    /*Alinea los párrafos en una columna*/
+    justify-content: center;
+    /* Centra los párrafos verticalmente */
+    margin-left: 2.5%;
+    margin-right: 6%;
+}
+
+.planta1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 80px;
+    height: 165px;
+    background-image: url("../img/planta1.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#desc_prod1,
+#desc_prec1 {
+    margin: 0;
+    margin-left: 200px;
+    font-family: 'Segoe UI', 'sans-serif';
+    font-size: 12px;
+}
+
+.planta2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 80px;
+    height: 165px;
+    background-image: url("../img/planta2.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#desc_prod2,
+#desc_prec2 {
+    margin: 0;
+    margin-left: 200px;
+    font-family: 'Segoe UI', 'sans-serif';
+    font-size: 12px;
+}
+
+.planta3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 80px;
+    height: 165px;
+    background-image: url("../img/planta3.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#desc_prod3,
+#desc_prec3 {
+    margin: 0;
+    margin-left: 200px;
+    font-family: 'Segoe UI', 'sans-serif';
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 6%;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(164, 116, 33);
+}
